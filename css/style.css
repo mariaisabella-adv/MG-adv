@@ -255,9 +255,9 @@ body {
   max-width: 520px;
 }
 
-.perfil-nome {
+strong {
   color: var(--color-secondary);
-  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .section-tag {

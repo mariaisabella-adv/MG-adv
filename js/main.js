@@ -47,7 +47,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 
 const whatsappButtons = document.querySelectorAll('.whatsapp-btn')
 
-const phone = "5592810884441";
+const phone = "5592981088441";
 const message = encodeURIComponent(
   "Olá, Maria Isabella. Gostaria de obter uma orientação jurídica."
 )
