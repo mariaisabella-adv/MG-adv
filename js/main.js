@@ -49,7 +49,7 @@ const whatsappButtons = document.querySelectorAll('.whatsapp-btn')
 
 const phone = "5592981088441";
 const message = encodeURIComponent(
-  "Olá, Maria Isabella. Gostaria de obter uma orientação jurídica."
+  "Olá, Dra. Maria Isabella. Gostaria de obter uma orientação jurídica."
 )
 
 whatsappButtons.forEach(btn => {
