@@ -370,7 +370,7 @@ body {
   position: absolute;
   left: 0;
   top: 8px;
-  color: var(--color-secondary);
+  color: var(--color-secondary) !important;
   font-size: 0.8rem;
 }
 
