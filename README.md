@@ -6,6 +6,10 @@ O projeto foi pensado para ser elegante, responsivo e alinhado às boas prática
 
 ---
 
+## 📸 Preview do Projeto
+
+![Preview do site](assents/images/screenshot.jpg)
+
 ## 🔗 Acesso ao projeto
 (Link após deploy)
 
