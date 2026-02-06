@@ -359,14 +359,12 @@ body {
 
 .atuacao-item li {
   position: relative;
-  padding-left: 1.5rem;
+  padding-left: 0.2rem;
   margin-bottom: 0.7rem;
   color: var(--text-muted);
-  list-style: none;
 }
 
 .atuacao-item li::before {
-  content: "♦";
   position: absolute;
   left: 0;
   top: 8px;
@@ -612,7 +610,7 @@ body {
   color: white;
 }
 
-.footer-legal p{
+.footer-legal p {
   line-height: 1.6;
   color: var(--text-muted);
 }
@@ -790,8 +788,8 @@ body {
   }
 
   .footer-container {
-  grid-template-columns: 1fr;
-  text-align: center;
+    grid-template-columns: 1fr;
+    text-align: center;
   }
 
   .footer-logo {
