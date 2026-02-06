@@ -152,7 +152,7 @@ body {
 
   background:
     linear-gradient(rgba(15, 15, 15, 0.75), rgba(15, 15, 15, 0.9)),
-    url("../assents/images/Advogado-bg.jpg");
+    url("../assets/images/advogado-bg.jpg");
 
   background-size: cover;
   background-position: center;
@@ -312,7 +312,7 @@ body {
   padding: 6rem 1.5rem;
   background:
     linear-gradient(rgba(15, 15, 15, 1), rgba(15, 15, 15, 0.6)),
-    url("../assents/images/Background2.jpg");
+    url("../assets/images/background2.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -427,7 +427,7 @@ body {
   padding: 6rem 2rem;
   background:
     linear-gradient(rgba(15, 15, 15, 1), rgba(15, 15, 15, 0.6)),
-    url("../assents/images/Background3.jpg");
+    url("../assets/images/background3.jpg");
   background-size: cover;
   background-position: center;
 }
