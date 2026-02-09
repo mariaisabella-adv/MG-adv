@@ -624,6 +624,9 @@ strong {
   color: white;
 }
 
+
+/* RESPONSIVIDADE */
+
 @media (min-width: 768px) {
   body {
     font-size: 1.4rem;
