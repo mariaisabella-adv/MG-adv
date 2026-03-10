@@ -57,3 +57,23 @@ whatsappButtons.forEach((btn) => {
     window.open(`https://wa.me/${phone}?text=${message}`, "_blank");
   });
 });
+
+// ===== SCROLL ANIMATIONS com Intersection Observer =====
+
+const observerOptions = {
+    threshold: 0.,
+    rootMargin: '0px 0px -100px 0px'
+};
+
+const observer = new IntersectionObserver(function(entries) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            observer.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
+
+// Observar todos os elementos com classe scroll-reveal
+const scrollElements = document.querySelectorAll('.scroll-reveal');
+scrollElements.forEach(el => observer.observe(el));
